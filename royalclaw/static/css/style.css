@@ -17,7 +17,7 @@ h3,h4,h5,h6{
     padding: .5em 1em;
     text-decoration: none;
 }
-
+/* NAVIGATION BAR */
 nav{
     background-color: #00C5C8!important;
     overflow: hidden;
@@ -71,3 +71,18 @@ nav li img{
 	display: inline-block;
 	margin-left: 15px;
 }
+/* MERCH DISPLAY */
+.row{
+
+}
+.col-lg-4, .col-lg-6, .col-lg-8, .col-lg-12{
+	margin-top: 10px;
+}
+.box-element{
+	box-shadow:hsl(0, 0%, 80%) 0 0 16px;
+	background-color: #fff;
+	border-radius: 4px;
+	padding: 10px;
+}
+
+
