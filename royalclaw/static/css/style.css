@@ -1,7 +1,6 @@
 body{
 	background-color: #06191D;
 }
-
 h1,h2{
 	color:#06191D;
     font-family: arial black;
@@ -18,72 +17,6 @@ h3,h4,h5,h6{
     padding: .5em 1em;
     text-decoration: none;
 }
-
-/* NAVIGATION BAR */
-nav{
-    background-color: #00C5C8!important;
-    overflow: hidden;
-}
-nav ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-nav li.left{
-    float:left;
-    text-align: center;
-}
-nav li.right{
-    float:right;
-    text-align: center;
-    border: none;
-}
-nav li img{
-    width:25px;
-	display: inline-block;
-	margin-left: 15px;
-}
-nav li img:hover{
-    filter: invert(100%);
-    -webkit-filter: invert(100%);
-}
-nav li a{
-    color:#06191D;
-    font-family: arial black;
-    display: block;
-    font-weight: bold;
-    padding: .5em 1em;
-    text-decoration: none;
-}
-nav li a:visited{
-	color:#06191D;
-}
-nav li a:hover{
-    color: #ffff;
-    transition: .2s;
-}
-nav li.cart-icon{
-    float:right;
-    text-align: center;
-    border: none;
-}
-nav li img{
-    width:25px;
-	display: inline-block;
-	margin-left: 15px;
-}
-#cart-total{
-	display: block;
-	text-align: center;
-	color:#fff;
-	background-color: red;
-	width: 20px;
-	height: 25px;
-	border-radius: 50%;
-	font-size: 14px;
-}
-/* MERCH DISPLAY */
 
 .box-element{
 	box-shadow:hsl(0, 0%, 80%) 0 0 16px;
@@ -104,6 +37,9 @@ nav li img{
 	border-radius: 0 0 4px 4px;
 }
 
+.bg-dark{
+	background-color: #4f868c!important;
+}
 
 .col-lg-4, .col-lg-6, .col-lg-8, .col-lg-12{
 	margin-top: 10px;
@@ -129,13 +65,14 @@ nav li img{
     padding-bottom: 10px;
     margin-bottom: 10px;
     border-bottom: 1px solid #ececec;
-
 }
 
 .quantity{
 	display: inline-block;
 	font-weight: 700;
 	padding-right:10px;
+
+
 }
 
 .chg-quantity{
@@ -149,6 +86,7 @@ nav li img{
 .chg-quantity:hover{
 	opacity: .6;
 }
+
 
 .hidden{
 	display: none!important;
