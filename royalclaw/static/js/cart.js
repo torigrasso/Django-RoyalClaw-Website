@@ -8,8 +8,8 @@ for (var i=0; i < updateBtns.length; i++) {
         console.log('productId: ', productId, "action: ", action)
         console.log('User: ', user)
 
-        if (user === 'AnonymousUser'){
-            console.log('Not logged in')
+        if (user == 'AnonymousUser'){
+            addCookieItem(productId, action)
         }
         else{
             updateUserOrder(productId, action)
@@ -17,6 +17,38 @@ for (var i=0; i < updateBtns.length; i++) {
     })
 }
 
+
+// Guest users using cookies
+function addCookieItem(productId, action){
+    console.log('Not logged in')
+
+    if (action == 'add'){
+        console.log('add')
+        if (cart[productId] == undefined){
+            cart[productId] = {'quantity':1}
+        }
+        else{
+            cart[productId]['quantity'] += 1
+        }
+    }
+
+    if (action == 'remove'){
+        cart[productId]['quantity'] -= 1
+
+        // removing product from cart if there are no more left
+        if (cart[productId]['quantity'] <= 0){
+            console.log("remove item")
+            delete cart[productId]
+        }
+    }
+    console.log('Cart:', cart)
+    // set cookies to entire site domain
+    document.cookie = 'cart=' + JSON.stringify(cart) + ";domain=;path=/"
+}
+
+
+
+// For verified users
 function updateUserOrder(productId, action){
     console.log('User is logged in, sending data...')
 

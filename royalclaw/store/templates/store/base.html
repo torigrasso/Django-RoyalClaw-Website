@@ -30,6 +30,33 @@
             return cookieValue;
         }
         var csrftoken = getToken('csrftoken');
+
+        // cookies for entire domain
+        function getCookie(name) {
+            // split cookie string to get all individual pairs in array
+            var cookieArr = document.cookie.split(";");
+
+            // loop through cookie array
+            for (var i=0; i < cookieArr.length; i++){
+                var cookiePair = cookieArr[i].split("=");
+
+                // remove whitespace and compare
+                if (name == cookiePair[0].trim()) {
+                    // decode cookie value and return
+                    return decodeURIComponent(cookiePair[1]);
+                }
+            }
+            // if nothing is found null will be returned
+            return null;
+        }
+        var cart = JSON.parse(getCookie('cart'))
+        if (cart == undefined) {
+            cart = {}
+            console.log('cart was created')
+            document.cookie = 'cart=' + JSON.stringify(cart) + ";domain=;path=/"
+        }
+        console.log('Cart:', cart)
+
     </script>
 
 
