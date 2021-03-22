@@ -1,3 +1,4 @@
+/* BASIC STYLE */
 body{
 	background-color: #06191D;
 }
@@ -17,7 +18,66 @@ h3,h4,h5,h6{
     padding: .5em 1em;
     text-decoration: none;
 }
-
+/* NAVIGATION BAR */
+nav{
+    background-color: #00C5C8!important;
+    overflow: hidden;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li.left{
+    float:left;
+    text-align: center;
+}
+nav li.right{
+    float:right;
+    text-align: center;
+    border: none;
+}
+nav li img{
+    width:25px;
+	display: inline-block;
+	margin-left: 15px;
+}
+nav li img:hover{
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+nav li a{
+    color:#06191D;
+    font-family: arial black;
+    display: block;
+    font-weight: bold;
+    padding: .5em 1em;
+    text-decoration: none;
+}
+nav li a:visited{
+	color:#06191D;
+}
+nav li a:hover{
+    color: #ffff;
+    transition: .2s;
+}
+nav li.cart-icon{
+    float:right;
+    text-align: center;
+    border: none;
+}
+nav p.cart-total{
+    float: right;
+    text-align: right;
+    margin-right: 10px;
+}
+nav li img{
+    width:25px;
+	display: inline-block;
+	margin-left: 15px;
+}
+/* REST OF SITE STYLE */
 .box-element{
 	box-shadow:hsl(0, 0%, 80%) 0 0 16px;
 	background-color: #fff;

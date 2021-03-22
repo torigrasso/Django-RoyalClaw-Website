@@ -128,3 +128,8 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
+
+MEDIA_URL = '/images/'
+
+# redirect uploaded images to site to live in static images
+MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
