@@ -1,0 +1,126 @@
+a{
+    color: #00C5C8;
+}
+
+/* PNG color animation */
+.img-animation{
+    max-width: 50%;
+    min-width: 20%;
+    padding-top: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: claw-colors 10000ms 0ms infinite linear;
+
+}
+@keyframes claw-colors {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+.mini-nav-div{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.mini-nav{
+    width: 370px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.mini-nav-ul{
+    list-style-type: none;
+    display: inline-block;
+    float:left;
+    padding: 10px;
+    overflow: hidden;
+
+}
+.mini-nav-a{
+    color: #FFFFFF;
+    font-family: arial black;
+    text-decoration: none;
+}
+.mini-nav-a:visited{
+    color: #FFFFFF;
+}
+.mini-nav-a:hover{
+    color: #00C5C8;
+    transition: .2s;
+}
+/* Need For Columns */
+* {
+  box-sizing: border-box;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+    height: 400px;
+
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+.small {
+    width: 35%;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.big {
+    width: 65%;
+    padding-top: 35px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+iframe{
+    display: block;
+    width:90%;
+    height:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.socials{
+    color:white;
+    list-style-type: none;
+    display: inline-block;
+    font-family: arial black;
+}
+
+.social-item{
+    padding:20px;
+}
+
+.scratch-img{
+    max-width: 30%;
+    min-width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.claw-mark{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Phones*/
+@media screen and (max-width: 625px) {
+    .column {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1250px) {
+    .column {
+        width: 50%;
+    }
+}

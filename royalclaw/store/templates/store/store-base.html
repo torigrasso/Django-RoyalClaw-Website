@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RoyalClaw-Website</title>
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/base.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/store.css'%}">
+    <!-- Size Adaptability -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"/>
+    <!-- Get User -->
+    <script type="text/javascript">
+        var user = '{{request.user}}'
+
+        // Django Documentation on how to get token
+        function getToken(name) {
+            let cookieValue = null;
+            if (document.cookie && document.cookie !== '') {
+                const cookies = document.cookie.split(';');
+                for (let i = 0; i < cookies.length; i++) {
+                    const cookie = cookies[i].trim();
+                    // Does this cookie string begin with the name we want?
+                    if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                        break;
+                    }
+                }
+            }
+            return cookieValue;
+        }
+        var csrftoken = getToken('csrftoken');
+
+        // cookies for entire domain
+        function getCookie(name) {
+            // split cookie string to get all individual pairs in array
+            var cookieArr = document.cookie.split(";");
+
+            // loop through cookie array
+            for (var i=0; i < cookieArr.length; i++){
+                var cookiePair = cookieArr[i].split("=");
+
+                // remove whitespace and compare
+                if (name == cookiePair[0].trim()) {
+                    // decode cookie value and return
+                    return decodeURIComponent(cookiePair[1]);
+                }
+            }
+            // if nothing is found null will be returned
+            return null;
+        }
+
+        var cart = JSON.parse(getCookie('cart'))
+        if (cart == undefined) {
+            cart = {}
+            console.log('cart was created')
+            document.cookie = 'cart=' + JSON.stringify(cart) + ";domain=;path=/"
+        }
+        console.log('Cart:', cart)
+
+    </script>
+</head>
+<body>
+    <nav>
+        <h2>Royal Claw</h2>
+        <ul>
+            <li class="left"><a href="{% url 'home' %}" title="Home">Home</a></li>
+            <li class="left"><a href="{% url 'store' %}" title="Merch">Merch</a></li>
+            <p class="cart-total">{{cartItems}}</p>
+            <li class="right"><a href="{% url 'cart' %}" title="Cart"><img src="{% static 'images/cart.png' %}"></a>
+            </li>
+            <li class="right"><a href="" title="Login">Login</a></li>
+        </ul>
+	</nav>
+
+    <div class="container">
+        <br>
+        {% block content %}
+
+        {% endblock content %}
+    </div>
+    <!-- JavaScript Bundle with Popper Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <!-- Custome Javascript to handle cart -->
+    <script type="text/javascript" src="{% static 'js/cart.js' %}"></script>
+    <footer>
+        <h6>Designed by Tori Grasso ©2021</h6>
+    </footer>
+
+</body>
+</html>

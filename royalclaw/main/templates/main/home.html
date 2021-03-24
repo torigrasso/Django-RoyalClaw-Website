@@ -1,5 +1,53 @@
-{% extends 'store/base.html'  %}
+{% extends 'main/main-base.html'  %}
 {% load static %}
 {% block content %}
-    <h4>Home</h4>
+        <br>
+        <img class="img-animation" src="{% static 'images/RoyalClaw-Transparent.png' %}">
+        <div class="mini-nav-div">
+            <ul class="mini-nav">
+                <li class=mini-nav-ul><a class="mini-nav-a" href="#about" title="About">About</a></li>
+                <li class=mini-nav-ul><a class="mini-nav-a" href="#schedule" title="Schedule">Stream Schedule</a></li>
+                <li class=mini-nav-ul><a class="mini-nav-a" href="#socials" title="Socials">Socials</a></li>
+            </ul>
+        </div>
+        <br>
+        <div class="row">
+            <div class="column small" id="about">
+                <h3>About</h3>
+                <h6>Watch me at TTV <a href="https://www.twitch.tv/royalclaw7">royalclaw7</a></h6>
+                <h6>Join my <a href="https://discord.gg/TCkcD3dsy3">Discord</a> Community! </h6>
+            </div>
+            <div class="column big">
+                <iframe src="https://www.youtube.com/embed/QYFLEvlTVYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="column small" id="schedule">
+                <h3>Stream Schedule</h3>
+            </div>
+            <div class="column big">
+                <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%2306191d&amp;ctz=America%2FNew_York&amp;src=dGxrY29kYTAybTN1Z282dWQwdW41dDZib2dAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%233F51B5&amp;showDate=0&amp;showPrint=0&amp;showCalendars=0&amp;showNav=0&amp;showTitle=0&amp;mode=AGENDA&amp;showTabs=0" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column small" id="socials">
+                <h3>Socials</h3>
+            </div>
+            <div class="column big">
+                <ul class="socials">
+                    <li class="social-item">Youtube: <a href="https://www.youtube.com/channel/UCi7UTRIwic-jDYcL4aXSJCQ">Royal Claw</a></li>
+                    <li class="social-item">Twitter: <a href="https://twitter.com/RoyalClaw7">RoyalClaw7</a> </li>
+                    <li class="social-item">Instagram: <a href="https://www.instagram.com/royalclaw7/">royalclaw7</a></li>
+                    <li class="social-item">TikTok: <a href="https://www.tiktok.com/@royalclaw7?lang=en">royalclaw7</a></li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <div data-aos="fade-down-right" data-aos-duration="3000">
+            <img class="scratch-img" src="{% static 'images/Claw-Marks.png' %}">
+        </div>
 {% endblock content %}
