@@ -44,6 +44,9 @@ function addCookieItem(productId, action){
     console.log('Cart:', cart)
     // set cookies to entire site domain
     document.cookie = 'cart=' + JSON.stringify(cart) + ";domain=;path=/"
+    // reload page so info can be updated
+    location.reload();
+        // works in safari but not chrome???
 }
 
 
