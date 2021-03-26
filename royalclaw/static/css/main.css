@@ -127,6 +127,11 @@ iframe{
         width: 100%;
     }
 }
+@media screen and (max-width: 300px) {
+    .mini-nav-ul {
+        float:left;
+    }
+}
 @media screen and (min-width: 1250px) {
     .column {
         width: 50%;

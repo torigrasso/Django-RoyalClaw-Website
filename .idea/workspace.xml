@@ -2,22 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d586429-2ecf-4396-88ca-cf01ec9b1eab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/royalclaw/users/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/royalclaw/users/templates/users/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/royalclaw/users/templates/users/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/royalclaw/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/royalclaw/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/royalclaw/main/templates/main/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/royalclaw/main/templates/main/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/royalclaw/main/templates/main/main-base.html" beforeDir="false" afterPath="$PROJECT_DIR$/royalclaw/main/templates/main/main-base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/royalclaw/royalclaw/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/royalclaw/royalclaw/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/royalclaw/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/royalclaw/static/css/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/royalclaw/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/royalclaw/static/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/royalclaw/static/css/user.css" beforeDir="false" afterPath="$PROJECT_DIR$/royalclaw/static/css/user.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/royalclaw/store/templates/store/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/royalclaw/store/templates/store/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/royalclaw/store/templates/store/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/royalclaw/store/templates/store/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/royalclaw/static/images/classic-ltee.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/royalclaw/static/images/classic_stee.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/royalclaw/static/images/graphic-ltee.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/royalclaw/static/images/graphic-stee.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/royalclaw/static/images/sticker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/royalclaw/static/images/sweats.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/royalclaw/static/images/sweatshirt.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/royalclaw/store/templates/store/store-base.html" beforeDir="false" afterPath="$PROJECT_DIR$/royalclaw/store/templates/store/store-base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/royalclaw/store/templates/store/store.html" beforeDir="false" afterPath="$PROJECT_DIR$/royalclaw/store/templates/store/store.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/royalclaw/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/royalclaw/users/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/royalclaw/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/royalclaw/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/royalclaw/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/royalclaw/users/templates/users/login.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,43 +28,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/royalclaw/users/templates/users/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/royalclaw/users/templates/users/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="30" />
-              <folding>
-                <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/royalclaw/users/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/royalclaw/main/templates/main/main-base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="74" selection-start-line="74" selection-end-line="78" selection-end-column="23" />
+            <state relative-caret-position="225">
+              <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
               <folding>
                 <element signature="n#script#0;n#head#0;n#html#0;n#!!top" />
               </folding>
@@ -72,37 +39,18 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/royalclaw/static/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="129" column="33" selection-start-line="129" selection-start-column="33" selection-end-line="129" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/royalclaw/store/templates/store/store-base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/royalclaw/users/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/royalclaw/users/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="64" lean-forward="true" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/royalclaw/static/images/sticker.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -130,7 +78,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/royalclaw/store/templates/store/home.html" />
-        <option value="$PROJECT_DIR$/royalclaw/main/views.py" />
         <option value="$PROJECT_DIR$/royalclaw/main/urls.py" />
         <option value="$PROJECT_DIR$/royalclaw/store/admin.py" />
         <option value="$PROJECT_DIR$/royalclaw/royalclaw/settings.py" />
@@ -142,35 +89,38 @@
         <option value="$PROJECT_DIR$/royalclaw/store/views.py" />
         <option value="$PROJECT_DIR$/royalclaw/static/css/store.css" />
         <option value="$PROJECT_DIR$/royalclaw/store/templates/store/base.html" />
-        <option value="$PROJECT_DIR$/royalclaw/main/templates/main/home.html" />
-        <option value="$PROJECT_DIR$/royalclaw/static/css/base.css" />
-        <option value="$PROJECT_DIR$/royalclaw/static/css/main.css" />
         <option value="$PROJECT_DIR$/royalclaw/store/templates/store/checkout.html" />
         <option value="$PROJECT_DIR$/royalclaw/store/templates/store/cart.html" />
         <option value="$PROJECT_DIR$/royalclaw/store/templates/store/store.html" />
         <option value="$PROJECT_DIR$/royalclaw/royalclaw/urls.py" />
         <option value="$PROJECT_DIR$/royalclaw/users/forms.py" />
-        <option value="$PROJECT_DIR$/royalclaw/static/css/user.css" />
         <option value="$PROJECT_DIR$/royalclaw/users/templates/users/register.html" />
-        <option value="$PROJECT_DIR$/royalclaw/users/templates/users/login.html" />
         <option value="$PROJECT_DIR$/royalclaw/users/urls.py" />
         <option value="$PROJECT_DIR$/royalclaw/users/views.py" />
+        <option value="$PROJECT_DIR$/royalclaw/users/templates/users/login.html" />
+        <option value="$PROJECT_DIR$/royalclaw/static/css/user.css" />
+        <option value="$PROJECT_DIR$/royalclaw/main/utils.py" />
+        <option value="$PROJECT_DIR$/royalclaw/main/views.py" />
+        <option value="$PROJECT_DIR$/royalclaw/main/templates/main/home.html" />
         <option value="$PROJECT_DIR$/royalclaw/main/templates/main/main-base.html" />
         <option value="$PROJECT_DIR$/royalclaw/store/templates/store/store-base.html" />
+        <option value="$PROJECT_DIR$/royalclaw/static/css/base.css" />
+        <option value="$PROJECT_DIR$/royalclaw/static/css/main.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="22" />
+    <option name="x" value="161" />
     <option name="y" value="25" />
-    <option name="width" value="1416" />
-    <option name="height" value="850" />
+    <option name="width" value="1092" />
+    <option name="height" value="799" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,12 +158,6 @@
               <item name="Django-RoyalClaw-Website" type="b2602c69:ProjectViewProjectNode" />
               <item name="Django-RoyalClaw-Website" type="462c0819:PsiDirectoryNode" />
               <item name="royalclaw" type="462c0819:PsiDirectoryNode" />
-              <item name="royalclaw" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django-RoyalClaw-Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django-RoyalClaw-Website" type="462c0819:PsiDirectoryNode" />
-              <item name="royalclaw" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -222,6 +166,13 @@
               <item name="royalclaw" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django-RoyalClaw-Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django-RoyalClaw-Website" type="462c0819:PsiDirectoryNode" />
+              <item name="royalclaw" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Django-RoyalClaw-Website" type="b2602c69:ProjectViewProjectNode" />
@@ -269,7 +220,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -428,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616599963214</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Login/Register is up and sort of working..&#10;&#10;Need to fix logout to actually logout&#10;Login is not properly working&#10;Redirect to home page when you login is not working&#10;&#10;Redirect to home page when a user is logged in and tried to go to:&#10;login&#10;register">
+      <created>1616731258838</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1616731258839</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -441,16 +398,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="22" y="25" width="1416" height="850" extended-state="0" />
+    <frame x="161" y="25" width="1092" height="799" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18853046" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2455649" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="DB Browser" order="3" weight="0.32999283" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2925532" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31383738" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39942938" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -481,7 +438,8 @@
     <MESSAGE value="Checkout/complete order is successful for someone with an account.&#10;Working on guest checkout next" />
     <MESSAGE value="Guest Checkout using cookies is now successful.&#10;&#10;&#10;Note: Chrome was not able to reload page (cart.js line 48),&#10;but Safari was able." />
     <MESSAGE value="Home page addition.&#10;Base htmls in all three apps&#10;css styling is more organized/cleaned-up" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home page addition.&#10;Base htmls in all three apps&#10;css styling is more organized/cleaned-up" />
+    <MESSAGE value="Login/Register is up and sort of working..&#10;&#10;Need to fix logout to actually logout&#10;Login is not properly working&#10;Redirect to home page when you login is not working&#10;&#10;Redirect to home page when a user is logged in and tried to go to:&#10;login&#10;register" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/royalclaw/store/manage.py" />
@@ -517,26 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/royalclaw/store/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/royalclaw/store/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/royalclaw/static/js/cart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -549,13 +487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
           <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/royalclaw/static/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -586,23 +517,6 @@
           <folding>
             <element signature="e#633#665#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/royalclaw/store/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/royalclaw/main/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="53" lean-forward="true" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -659,27 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/royalclaw/main/templates/main/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/royalclaw/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/royalclaw/static/css/user.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/royalclaw/users/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -687,23 +580,6 @@
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/royalclaw/users/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/royalclaw/users/templates/users/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -717,22 +593,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/royalclaw/main/templates/main/main-base.html">
+    <entry file="file://$PROJECT_DIR$/royalclaw/users/templates/users/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="74" selection-start-line="74" selection-end-line="78" selection-end-column="23" />
+        <state relative-caret-position="260">
+          <caret line="50" column="91" selection-start-line="50" selection-start-column="91" selection-end-line="50" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/royalclaw/static/css/user.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/royalclaw/store/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-202">
+          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/royalclaw/main/utils.py" />
+    <entry file="file://$PROJECT_DIR$/royalclaw/store/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/royalclaw/store/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/royalclaw/main/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/royalclaw/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/royalclaw/main/templates/main/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/royalclaw/static/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-969">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/royalclaw/store/templates/store/store-base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-106">
+          <caret line="65" column="45" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
           <folding>
             <element signature="n#script#0;n#head#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/royalclaw/store/templates/store/store-base.html">
+    <entry file="file://$PROJECT_DIR$/royalclaw/main/templates/main/main-base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
+        <state relative-caret-position="225">
+          <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
+          <folding>
+            <element signature="n#script#0;n#head#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/royalclaw/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="129" column="33" selection-start-line="129" selection-start-column="33" selection-end-line="129" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/royalclaw/static/images/sticker.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>

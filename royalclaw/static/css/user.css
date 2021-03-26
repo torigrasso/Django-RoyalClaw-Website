@@ -18,7 +18,6 @@ body, html {
     -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
-
 }
 
 .form_container {
@@ -57,12 +56,12 @@ body, html {
     padding: 10px;
     margin-top: 10px;
 }
-.link-to-login-reg{
-    color: #00C5C8;
+.link{
+    color: #0307a6;
     padding-left: 10px;
 }
-.link-to-login-reg:hover{
-    color: #70E7D1;
+.link:hover{
+    color: #00C5C8;
 }
 .claw-img{
     width:75px;

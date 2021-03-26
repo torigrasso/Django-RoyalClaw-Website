@@ -19,6 +19,10 @@ h3,h4,h5,h6{
 }
 
 /* NAVIGATION BAR */
+.top-title{
+    display: block;
+    text-align: center;
+}
 nav{
     background-color: #00C5C8!important;
     overflow: hidden;
