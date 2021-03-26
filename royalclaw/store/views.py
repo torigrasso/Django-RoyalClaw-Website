@@ -126,6 +126,4 @@ def processOrder(request):
             country=data['shipping']['country'],
         )
 
-
-
     return JsonResponse('Payment complete', safe=False)
