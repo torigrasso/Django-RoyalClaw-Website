@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d586429-2ecf-4396-88ca-cf01ec9b1eab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/royalclaw/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/royalclaw/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/royalclaw/main/templates/main/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/royalclaw/main/templates/main/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/royalclaw/main/templates/main/main-base.html" beforeDir="false" afterPath="$PROJECT_DIR$/royalclaw/main/templates/main/main-base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/royalclaw/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/royalclaw/static/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/royalclaw/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/royalclaw/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/royalclaw/static/css/user.css" beforeDir="false" afterPath="$PROJECT_DIR$/royalclaw/static/css/user.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/royalclaw/static/images/classic-ltee.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/royalclaw/static/images/classic_stee.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/royalclaw/static/images/graphic-ltee.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/royalclaw/static/images/graphic-stee.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/royalclaw/static/images/sticker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/royalclaw/static/images/sweats.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/royalclaw/static/images/sweatshirt.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/royalclaw/store/templates/store/store-base.html" beforeDir="false" afterPath="$PROJECT_DIR$/royalclaw/store/templates/store/store-base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/royalclaw/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/royalclaw/users/templates/users/login.html" afterDir="false" />
-    </list>
+    <list default="true" id="5d586429-2ecf-4396-88ca-cf01ec9b1eab" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,18 +22,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/royalclaw/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="129" column="33" selection-start-line="129" selection-start-column="33" selection-end-line="129" selection-end-column="33" />
+            <state relative-caret-position="331">
+              <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/royalclaw/static/images/sticker.png">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -385,7 +363,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616731258839</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Cleaned up product images">
+      <created>1616735695167</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1616735695167</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Cleaned up product images">
+      <created>1616735704499</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1616735704499</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView">
@@ -407,7 +399,7 @@
       <window_info id="DB Browser" order="3" weight="0.32999283" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31383738" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31383738" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39942938" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -439,7 +431,8 @@
     <MESSAGE value="Guest Checkout using cookies is now successful.&#10;&#10;&#10;Note: Chrome was not able to reload page (cart.js line 48),&#10;but Safari was able." />
     <MESSAGE value="Home page addition.&#10;Base htmls in all three apps&#10;css styling is more organized/cleaned-up" />
     <MESSAGE value="Login/Register is up and sort of working..&#10;&#10;Need to fix logout to actually logout&#10;Login is not properly working&#10;Redirect to home page when you login is not working&#10;&#10;Redirect to home page when a user is logged in and tried to go to:&#10;login&#10;register" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Cleaned up product images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up product images" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/royalclaw/store/manage.py" />
@@ -686,15 +679,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/royalclaw/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="129" column="33" selection-start-line="129" selection-start-column="33" selection-end-line="129" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/royalclaw/static/images/sticker.png">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/royalclaw/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
