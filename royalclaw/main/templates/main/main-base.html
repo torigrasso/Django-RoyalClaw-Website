@@ -71,9 +71,13 @@
             <li class="left"><a href="{% url 'home' %}" title="Home">Home</a></li>
             <li class="left"><a href="{% url 'store' %}" title="Merch">Merch</a></li>
             <p class="cart-total">{{cartItems}}</p>
-            <li class="right"><a href="{% url 'cart' %}" title="Cart"><img src="{% static 'images/cart.png' %}"></a>
-            </li>
-            <li class="right"><a href="" title="Login">Login</a></li>
+            <li class="right"><a href="{% url 'cart' %}" title="Cart"><img src="{% static 'images/cart.png' %}"></a></li>
+            {% if request.user.is_authenticated %}
+                <li class="right"><a href="{% url 'logout' %}" title="Logout">Logout</a>{{request.user}}</li>
+            {% else %}
+                <li class="right"><a href="{% url 'login' %}" title="Login">Login</a></li>
+            {% endif %}
+
         </ul>
 	</nav>
 

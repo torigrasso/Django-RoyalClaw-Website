@@ -1,3 +1,11 @@
+h3,h4,h5,h6{
+	color:#FFFFFF!important;
+    font-family: arial black;
+    display: block;
+    font-weight: bold;
+    padding: .5em 1em;
+    text-decoration: none;
+}
 a{
     color: #00C5C8;
 }
