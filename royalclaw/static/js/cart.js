@@ -46,7 +46,6 @@ function addCookieItem(productId, action){
     document.cookie = 'cart=' + JSON.stringify(cart) + ";domain=;path=/"
     // reload page so info can be updated
     location.reload();
-        // works in safari but not chrome???
 }
 
 
